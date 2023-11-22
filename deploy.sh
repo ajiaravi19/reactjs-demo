@@ -11,7 +11,7 @@ elif [[ $GIT_BRANCH ==  "origin/main" ]]; then
         docker login -u ajithselvam -p dckr_pat_zpnY-4BY5Z0suXXM1vWHOi-vNsQ
       
         docker tag myreactimg ajithselvam/prod 
-        docker push ajithselvam/dev 
+        docker push ajithselvam/prod 
 else
 	echo " deployment error "
 fi
